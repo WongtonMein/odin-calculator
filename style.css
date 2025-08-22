@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: rgb(218, 245, 245);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+    max-width: 260px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.display {
+    background-color: white;
+    padding: 20px 50px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 2px;;
+}
+
+.buttons {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    flex-basis: 25%;
+    border-radius: 10px;
+}
+
+/* non functional buttons */
+#parentheses button, #percent button {
+    background-color: black;
+}
