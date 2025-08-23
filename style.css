@@ -11,34 +11,37 @@ body {
     align-items: center;
     background-color: darkgray;
     max-width: 260px;
-    border-radius: 10px;
+    padding: 10px;
     border: 2px solid black;
+    border-radius: 10px;
 }
 
 .display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: white;
-    padding: 20px 50px;
     margin: 20px;
+    padding: 0 5px;
     border: 1px solid black;
-    border-radius: 2px;;
+    border-radius: 2px;
+    width: 200px;
+    height: 60px;
 }
 
 .buttons {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     gap: 5px;
-    padding: 10px;
 }
 
 button {
     height: 50px;
     width: 50px;
-    flex-basis: 25%;
     border-radius: 10px;
 }
 
 /* non functional buttons */
-#parentheses button, #percent button {
+#parentheses, #percent {
     background-color: black;
 }
