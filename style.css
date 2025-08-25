@@ -43,5 +43,5 @@ button {
 
 /* non functional buttons */
 #parentheses, #percent {
-    background-color: black;
+    background-color: rgb(70, 70, 70);
 }
